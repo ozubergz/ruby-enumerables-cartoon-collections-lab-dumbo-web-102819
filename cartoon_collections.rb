@@ -10,7 +10,7 @@ def summon_captain_planet(veggies)
   }
 end
 
-def long_planeteer_calls(array)
+def long_planeteer_calls(words)
   words.each { |word|
     if word.length < 4
       return true
